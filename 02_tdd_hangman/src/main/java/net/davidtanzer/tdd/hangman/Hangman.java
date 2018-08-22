@@ -1,12 +1,16 @@
 package net.davidtanzer.tdd.hangman;
 
 public class Hangman {
-	
+
 	private String guess = "";
 	private SecretHolder secretHolder;
 
 	public Hangman(String secret) {
-		this.secretHolder = new SecretHolder(secret);
+		this(new SecretHolder(secret));
+	}
+
+	public Hangman(SecretHolder secretHolder){
+		this.secretHolder = secretHolder;
 	}
 
 	public String generateHint() {
