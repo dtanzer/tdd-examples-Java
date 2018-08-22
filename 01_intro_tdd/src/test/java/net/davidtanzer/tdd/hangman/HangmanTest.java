@@ -5,10 +5,23 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
 class HangmanTest {
-	private Hangman hangman = new Hangman();
 
 	@Test
-	public void fixmeGiveMeABetterName() {
-		fail("Fixme: Implement me!");
+	public void testHintIsReturnedForGivenWord() {
+		assertThat(new Hangman("random").getHint()).isEqualTo("------");
+		assertThat(new Hangman("happy").getHint()).isEqualTo("-----");
 	}
+
+	@Test
+	public void testHintIsUpdatedIfTheGuessIsCorrect(){
+		Hangman hangman =new Hangman("random");
+        hangman.guess('a');
+		assertThat(hangman.getHint()).isEqualTo("-a----");
+	}
+
+
+
+
+
+
 }
