@@ -4,11 +4,7 @@ public class Hangman {
 
 	private String guess = "";
 	private SecretHolder secretHolder;
-
-	public Hangman(String secret) {
-		this(new SecretHolder(secret));
-	}
-
+	
 	public Hangman(SecretHolder secretHolder){
 		this.secretHolder = secretHolder;
 	}
