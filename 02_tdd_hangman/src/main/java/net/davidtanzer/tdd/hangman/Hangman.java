@@ -4,9 +4,11 @@ public class Hangman {
 
 	private String secret;
 	private String guess = "";
+	private SecretHolder secretHolder;
 
 	public Hangman(String secret) {
 		this.secret = secret;
+		this.secretHolder = new SecretHolder(secret);
 	}
 
 	public String generateHint() {
