@@ -1,4 +1,8 @@
 package net.davidtanzer.tdd.hangman;
 
-public class Hangman {
+public interface Hangman {
+	String generateHint();
+	boolean isRunning();
+
+	void guess(char a);
 }

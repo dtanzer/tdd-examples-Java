@@ -1,11 +1,11 @@
 package net.davidtanzer.tdd.hangman;
 
-public class Hangman {
+public class HangmanImpl {
 
 	private String guess = "";
 	private SecretHolder secretHolder;
-	
-	public Hangman(SecretHolder secretHolder){
+
+	public HangmanImpl(SecretHolder secretHolder){
 		this.secretHolder = secretHolder;
 	}
 

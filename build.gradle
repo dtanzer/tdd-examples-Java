@@ -9,10 +9,11 @@ subprojects {
 	}
 
 	dependencies { 
-		testCompile "org.mockito:mockito-core:2.+"
+		testCompile "org.mockito:mockito-core:2.21.0"
+		testCompile "org.mockito:mockito-junit-jupiter:2.21.0"
 		testCompile "org.assertj:assertj-core:3.9.0"
 		testRuntime "org.junit.platform:junit-platform-launcher:1.0.1"
-		testCompile "org.junit.jupiter:junit-jupiter-api:5.0.1"
-		testRuntime "org.junit.jupiter:junit-jupiter-engine:5.0.1"
+		testCompile "org.junit.jupiter:junit-jupiter-api:5.1.0"
+		testRuntime "org.junit.jupiter:junit-jupiter-engine:5.1.0"
 	}
 }
