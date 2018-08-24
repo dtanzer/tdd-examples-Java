@@ -9,8 +9,8 @@
       <ignores>0</ignores>
       <exceptions>0</exceptions>
     </counts>
-    <date>2018-08-24T06:10:58+02:00</date>
-    <runTimeInMillis>247</runTimeInMillis>
+    <date>2018-08-24T14:39:19+02:00</date>
+    <runTimeInMillis>134</runTimeInMillis>
     <content>&lt;br/&gt;&lt;div class="contents"&gt;
 	&lt;b&gt;Contents:&lt;/b&gt;
 	&lt;ul class="toc1"/&gt;&lt;ul class="toc1"/&gt;
@@ -21,15 +21,15 @@
 	&lt;/tr&gt;
 	&lt;tr&gt;
 		&lt;td&gt;day of week&lt;/td&gt;
-		&lt;td&gt;is friday?&lt;/td&gt;
+		&lt;td&gt;last order time?&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr&gt;
-		&lt;td&gt;Sunday&lt;/td&gt;
-		&lt;td&gt;[&lt;span class="diff"&gt;Wha?&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;Nope&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Thursday&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;Nope&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;16:00&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr&gt;
 		&lt;td&gt;Friday&lt;/td&gt;
-		&lt;td&gt;[&lt;span class="diff"&gt;Wha?&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;YEAH!&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;YEAH!&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;22:00&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
 	&lt;/tr&gt;
 &lt;/table&gt;
 </content>
@@ -48,7 +48,7 @@
                   </expectation>
               </instructionResult>
             <instructionResult>
-        <instruction>{id='decisionTable_0_4', instruction='call', instanceName='decisionTable_0', methodName='setDayOfWeek', args=[Sunday]}</instruction>
+        <instruction>{id='decisionTable_0_4', instruction='call', instanceName='decisionTable_0', methodName='setDayOfWeek', args=[Thursday]}</instruction>
         <slimResult></slimResult>
                 <expectation>
                     <instructionId>decisionTable_0_4</instructionId>
@@ -58,16 +58,16 @@
                                       </expectation>
               </instructionResult>
             <instructionResult>
-        <instruction>{id='decisionTable_0_6', instruction='call', instanceName='decisionTable_0', methodName='isFriday', args=[]}</instruction>
-        <slimResult>fail(a=Wha?;e=Nope)</slimResult>
+        <instruction>{id='decisionTable_0_6', instruction='call', instanceName='decisionTable_0', methodName='lastOrderTime', args=[]}</instruction>
+        <slimResult>fail(a=Nope;e=16:00)</slimResult>
                 <expectation>
                     <status>fail</status>
                     <instructionId>decisionTable_0_6</instructionId>
                     <col>1</col>
                               <row>2</row>
                     <type>ReturnedValueExpectation</type>
-                    <actual>Wha?</actual>
-                              <expected>Nope</expected>
+                    <actual>Nope</actual>
+                              <expected>16:00</expected>
                             </expectation>
               </instructionResult>
             <instructionResult>
@@ -81,16 +81,16 @@
                                       </expectation>
               </instructionResult>
             <instructionResult>
-        <instruction>{id='decisionTable_0_10', instruction='call', instanceName='decisionTable_0', methodName='isFriday', args=[]}</instruction>
-        <slimResult>fail(a=Wha?;e=YEAH!)</slimResult>
+        <instruction>{id='decisionTable_0_10', instruction='call', instanceName='decisionTable_0', methodName='lastOrderTime', args=[]}</instruction>
+        <slimResult>fail(a=YEAH!;e=22:00)</slimResult>
                 <expectation>
                     <status>fail</status>
                     <instructionId>decisionTable_0_10</instructionId>
                     <col>1</col>
                               <row>3</row>
                     <type>ReturnedValueExpectation</type>
-                    <actual>Wha?</actual>
-                              <expected>YEAH!</expected>
+                    <actual>YEAH!</actual>
+                              <expected>22:00</expected>
                             </expectation>
               </instructionResult>
           </instructions>
@@ -108,6 +108,6 @@
     <ignores>0</ignores>
     <exceptions>0</exceptions>
   </finalCounts>
-  <totalRunTimeInMillis>839</totalRunTimeInMillis>
+  <totalRunTimeInMillis>778</totalRunTimeInMillis>
 </testResults>
 

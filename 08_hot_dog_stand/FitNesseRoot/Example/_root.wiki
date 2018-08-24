@@ -3,6 +3,7 @@ Suite
 Test: no
 ---
 !path   out/test/classes
+!path out/production/classes
 !define TEST_SYSTEM {slim} 
 
 [[Is it friday yet?][.Example.IsItFridayYet]]

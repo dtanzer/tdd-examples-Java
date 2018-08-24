@@ -1,2 +1,2 @@
-
+[[Example Suite][.Example]]
 [[Is it Friday yet?][.Example.IsItFridayYet]]

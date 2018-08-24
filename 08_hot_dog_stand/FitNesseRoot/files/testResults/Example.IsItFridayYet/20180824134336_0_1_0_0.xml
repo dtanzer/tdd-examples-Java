@@ -9,8 +9,8 @@
       <ignores>0</ignores>
       <exceptions>0</exceptions>
     </counts>
-    <date>2018-08-24T06:10:58+02:00</date>
-    <runTimeInMillis>247</runTimeInMillis>
+    <date>2018-08-24T13:43:36+02:00</date>
+    <runTimeInMillis>155</runTimeInMillis>
     <content>&lt;br/&gt;&lt;div class="contents"&gt;
 	&lt;b&gt;Contents:&lt;/b&gt;
 	&lt;ul class="toc1"/&gt;&lt;ul class="toc1"/&gt;
@@ -108,6 +108,6 @@
     <ignores>0</ignores>
     <exceptions>0</exceptions>
   </finalCounts>
-  <totalRunTimeInMillis>839</totalRunTimeInMillis>
+  <totalRunTimeInMillis>717</totalRunTimeInMillis>
 </testResults>
 

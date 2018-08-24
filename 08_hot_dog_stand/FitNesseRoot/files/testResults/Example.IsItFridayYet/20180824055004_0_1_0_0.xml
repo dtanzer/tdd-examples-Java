@@ -17,18 +17,18 @@
 &lt;/div&gt;
 &lt;br/&gt;&lt;br/&gt;&lt;table&gt;
 	&lt;tr&gt;
-		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;hellofitnesse.IsItFridayYet&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;hellofitnesse.LastOrderTime&lt;/span&gt;&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr&gt;
 		&lt;td&gt;day of week&lt;/td&gt;
 		&lt;td&gt;is friday?&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr&gt;
-		&lt;td&gt;Sunday &lt;span class="error"&gt;Method setDayOfWeek[1] not found in hellofitnesse.IsItFridayYet.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Sunday &lt;span class="error"&gt;Method setDayOfWeek[1] not found in hellofitnesse.LastOrderTime.&lt;/span&gt;&lt;/td&gt;
 		&lt;td&gt;[&lt;span class="diff"&gt;Wha?&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;Nope&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr&gt;
-		&lt;td&gt;Friday &lt;span class="error"&gt;Method setDayOfWeek[1] not found in hellofitnesse.IsItFridayYet.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Friday &lt;span class="error"&gt;Method setDayOfWeek[1] not found in hellofitnesse.LastOrderTime.&lt;/span&gt;&lt;/td&gt;
 		&lt;td&gt;[&lt;span class="diff"&gt;Wha?&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;YEAH!&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
 	&lt;/tr&gt;
 &lt;/table&gt;
@@ -36,15 +36,15 @@
     <relativePageName>IsItFridayYet</relativePageName>
             <instructions>
             <instructionResult>
-        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='hellofitnesse.IsItFridayYet', args=[]}</instruction>
-        <slimResult>pass(hellofitnesse.IsItFridayYet)</slimResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='hellofitnesse.LastOrderTime', args=[]}</instruction>
+        <slimResult>pass(hellofitnesse.LastOrderTime)</slimResult>
                 <expectation>
                     <status>pass</status>
                     <instructionId>decisionTable_0_0</instructionId>
                     <col>0</col>
                               <row>0</row>
                     <type>ConstructionExpectation</type>
-                                        <evaluationMessage>hellofitnesse.IsItFridayYet</evaluationMessage>
+                                        <evaluationMessage>hellofitnesse.LastOrderTime</evaluationMessage>
                   </expectation>
               </instructionResult>
             <instructionResult>
@@ -54,7 +54,7 @@
                     <status>error</status>
                     <instructionId>decisionTable_0_4</instructionId>
                               <type>VoidReturnExpectation</type>
-                                        <evaluationMessage>Method setDayOfWeek[1] not found in hellofitnesse.IsItFridayYet.</evaluationMessage>
+                                        <evaluationMessage>Method setDayOfWeek[1] not found in hellofitnesse.LastOrderTime.</evaluationMessage>
                   </expectation>
               </instructionResult>
             <instructionResult>
@@ -77,7 +77,7 @@
                     <status>error</status>
                     <instructionId>decisionTable_0_8</instructionId>
                               <type>VoidReturnExpectation</type>
-                                        <evaluationMessage>Method setDayOfWeek[1] not found in hellofitnesse.IsItFridayYet.</evaluationMessage>
+                                        <evaluationMessage>Method setDayOfWeek[1] not found in hellofitnesse.LastOrderTime.</evaluationMessage>
                   </expectation>
               </instructionResult>
             <instructionResult>

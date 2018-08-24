@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>Example</rootPath>
+  <pageHistoryReference>
+    <name>Example.IsItFridayYet</name>
+    <date>2018-08-24T14:51:23+02:00</date>
+    <pageHistoryLink>Example.IsItFridayYet?pageHistory&amp;resultDate=20180824145123</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>11</exceptions>
+    </counts>
+    <runTimeInMillis>184</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk-9\bin\java" -cp C:\prj\tdd-examples-Java\08_hot_dog_stand\fitnesse-standalone.jar;out/test/classes;out/main/classes fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>755</totalRunTimeInMillis>
+</suiteResults>
+

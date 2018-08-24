@@ -17,7 +17,7 @@
 &lt;/div&gt;
 &lt;br/&gt;&lt;br/&gt;&lt;table&gt;
 	&lt;tr&gt;
-		&lt;td colspan="2" class="error"&gt;hellofitnesse.IsItFridayYet&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: hellofitnesse.IsItFridayYet.&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2" class="error"&gt;hellofitnesse.LastOrderTime&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: hellofitnesse.LastOrderTime.&lt;/span&gt;&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr&gt;
 		&lt;td&gt;day of week&lt;/td&gt;

@@ -3,7 +3,7 @@ Test
 ---
 !contents -R2 -g -p -f -h
 
-|hellofitnesse.IsItFridayYet|
-|day of week   |is friday?  |
-|Sunday        |Nope        |
-|Friday        |YEAH!       |
+|hellofitnesse.LastOrderTime |
+|day of week|last order time?|
+|Thursday   |16:00           |
+|Friday     |22:00           |

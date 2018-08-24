@@ -1,0 +1,582 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20180127</FitNesseVersion>
+  <rootPath>Example.IsItFridayYet</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>11</exceptions>
+    </counts>
+    <date>2018-08-24T14:51:23+02:00</date>
+    <runTimeInMillis>184</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;div class="contents"&gt;
+	&lt;b&gt;Contents:&lt;/b&gt;
+	&lt;ul class="toc1"/&gt;&lt;ul class="toc1"/&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td colspan="2" class="error"&gt;&lt;span class="pass"&gt;hellofitnesse.LastOrderTime&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: Lhellocucumber/HotDogManager;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) [rt.jar]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3024) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2205) [rt.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.findSystemUnderTest(SystemUnderTestMethodExecutor.java:23) [fitnesse-standalone.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.execute(SystemUnderTestMethodExecutor.java:19) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]
+Caused by: java.lang.ClassNotFoundException: hellocucumber.HotDogManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582) [n/a]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185) [n/a]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) [rt.jar]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3024) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2205) [rt.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.findSystemUnderTest(SystemUnderTestMethodExecutor.java:23) [fitnesse-standalone.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.execute(SystemUnderTestMethodExecutor.java:19) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: Lhellocucumber/HotDogManager;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) [rt.jar]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3024) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2205) [rt.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.findSystemUnderTest(SystemUnderTestMethodExecutor.java:23) [fitnesse-standalone.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.execute(SystemUnderTestMethodExecutor.java:19) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]
+Caused by: java.lang.ClassNotFoundException: hellocucumber.HotDogManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582) [n/a]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185) [n/a]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) [rt.jar]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3024) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2205) [rt.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.findSystemUnderTest(SystemUnderTestMethodExecutor.java:23) [fitnesse-standalone.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.execute(SystemUnderTestMethodExecutor.java:19) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: Lhellocucumber/HotDogManager;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) [rt.jar]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3024) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2205) [rt.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.findSystemUnderTest(SystemUnderTestMethodExecutor.java:23) [fitnesse-standalone.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.execute(SystemUnderTestMethodExecutor.java:19) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]
+Caused by: java.lang.ClassNotFoundException: hellocucumber.HotDogManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582) [n/a]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185) [n/a]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) [rt.jar]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3024) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2205) [rt.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.findSystemUnderTest(SystemUnderTestMethodExecutor.java:23) [fitnesse-standalone.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.execute(SystemUnderTestMethodExecutor.java:19) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;day of week&lt;/td&gt;
+		&lt;td&gt;last order time?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td class="error"&gt;Thursday&lt;/td&gt;
+		&lt;td class="error"&gt;16:00&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: hellocucumber/HotDogManager
+	at hellofitnesse.LastOrderTime.lastOrderTime(LastOrderTime.java:17) [file:/C:/prj/tdd-examples-Java/08_hot_dog_stand/out/test/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:221) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.callMethod(DefaultInteraction.java:206) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.invokeMethod(DefaultInteraction.java:188) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.findAndInvoke(DefaultInteraction.java:166) [fitnesse-standalone.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: Lhellocucumber/HotDogManager;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) [rt.jar]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3024) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2205) [rt.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.findSystemUnderTest(SystemUnderTestMethodExecutor.java:23) [fitnesse-standalone.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.execute(SystemUnderTestMethodExecutor.java:19) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]
+Caused by: java.lang.ClassNotFoundException: hellocucumber.HotDogManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582) [n/a]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185) [n/a]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) [rt.jar]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3024) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2205) [rt.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.findSystemUnderTest(SystemUnderTestMethodExecutor.java:23) [fitnesse-standalone.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.execute(SystemUnderTestMethodExecutor.java:19) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: hellocucumber/HotDogManager
+	at hellofitnesse.LastOrderTime.setDayOfWeek(LastOrderTime.java:13) [file:/C:/prj/tdd-examples-Java/08_hot_dog_stand/out/test/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:221) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.callMethod(DefaultInteraction.java:206) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.invokeMethod(DefaultInteraction.java:188) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.findAndInvoke(DefaultInteraction.java:166) [fitnesse-standalone.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: hellocucumber/HotDogManager
+	at hellofitnesse.LastOrderTime.reset(LastOrderTime.java:9) [file:/C:/prj/tdd-examples-Java/08_hot_dog_stand/out/test/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:221) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.callMethod(DefaultInteraction.java:206) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.invokeMethod(DefaultInteraction.java:188) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.findAndInvoke(DefaultInteraction.java:166) [fitnesse-standalone.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]
+Caused by: java.lang.ClassNotFoundException: hellocucumber.HotDogManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582) [n/a]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185) [n/a]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496) [rt.jar]
+	at hellofitnesse.LastOrderTime.reset(LastOrderTime.java:9) [file:/C:/prj/tdd-examples-Java/08_hot_dog_stand/out/test/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:221) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.callMethod(DefaultInteraction.java:206) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.invokeMethod(DefaultInteraction.java:188) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.findAndInvoke(DefaultInteraction.java:166) [fitnesse-standalone.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td class="error"&gt;Friday&lt;/td&gt;
+		&lt;td class="error"&gt;22:00&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: hellocucumber/HotDogManager
+	at hellofitnesse.LastOrderTime.lastOrderTime(LastOrderTime.java:17) [file:/C:/prj/tdd-examples-Java/08_hot_dog_stand/out/test/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:221) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.callMethod(DefaultInteraction.java:206) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.invokeMethod(DefaultInteraction.java:188) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.findAndInvoke(DefaultInteraction.java:166) [fitnesse-standalone.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: Lhellocucumber/HotDogManager;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) [rt.jar]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3024) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2205) [rt.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.findSystemUnderTest(SystemUnderTestMethodExecutor.java:23) [fitnesse-standalone.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.execute(SystemUnderTestMethodExecutor.java:19) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]
+Caused by: java.lang.ClassNotFoundException: hellocucumber.HotDogManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582) [n/a]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185) [n/a]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) [rt.jar]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3024) [rt.jar]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2205) [rt.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.findSystemUnderTest(SystemUnderTestMethodExecutor.java:23) [fitnesse-standalone.jar]
+	at fitnesse.slim.SystemUnderTestMethodExecutor.execute(SystemUnderTestMethodExecutor.java:19) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: hellocucumber/HotDogManager
+	at hellofitnesse.LastOrderTime.setDayOfWeek(LastOrderTime.java:13) [file:/C:/prj/tdd-examples-Java/08_hot_dog_stand/out/test/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:221) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.callMethod(DefaultInteraction.java:206) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.invokeMethod(DefaultInteraction.java:188) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.findAndInvoke(DefaultInteraction.java:166) [fitnesse-standalone.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="2"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: hellocucumber/HotDogManager
+	at hellofitnesse.LastOrderTime.reset(LastOrderTime.java:9) [file:/C:/prj/tdd-examples-Java/08_hot_dog_stand/out/test/classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:221) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.callMethod(DefaultInteraction.java:206) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.invokeMethod(DefaultInteraction.java:188) [fitnesse-standalone.jar]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.findAndInvoke(DefaultInteraction.java:166) [fitnesse-standalone.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-standalone.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>IsItFridayYet</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='hellofitnesse.LastOrderTime', args=[]}</instruction>
+        <slimResult>pass(hellofitnesse.LastOrderTime)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_0_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>hellofitnesse.LastOrderTime</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_1', instruction='call', instanceName='decisionTable_0', methodName='table', args=[[[day of week, last order time?], [Thursday, 16:00], [Friday, 22:00]]]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_1</instructionId>
+                              <type>SilentReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_2', instruction='call', instanceName='decisionTable_0', methodName='beginTable', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_2</instructionId>
+                              <type>SilentReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_3', instruction='call', instanceName='decisionTable_0', methodName='reset', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_3</instructionId>
+                              <type>SilentReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_4', instruction='call', instanceName='decisionTable_0', methodName='setDayOfWeek', args=[Thursday]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_4</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_5', instruction='call', instanceName='decisionTable_0', methodName='execute', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_5</instructionId>
+                              <type>SilentReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_6', instruction='call', instanceName='decisionTable_0', methodName='lastOrderTime', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_6</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_7', instruction='call', instanceName='decisionTable_0', methodName='reset', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_7</instructionId>
+                              <type>SilentReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_8', instruction='call', instanceName='decisionTable_0', methodName='setDayOfWeek', args=[Friday]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_8</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_9', instruction='call', instanceName='decisionTable_0', methodName='execute', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_9</instructionId>
+                              <type>SilentReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_10', instruction='call', instanceName='decisionTable_0', methodName='lastOrderTime', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_10</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_11', instruction='call', instanceName='decisionTable_0', methodName='endTable', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_11</instructionId>
+                              <type>SilentReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>184</totalRunTimeInMillis>
+</testResults>
+

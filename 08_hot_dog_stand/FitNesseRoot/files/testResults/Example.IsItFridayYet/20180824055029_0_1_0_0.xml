@@ -17,7 +17,7 @@
 &lt;/div&gt;
 &lt;br/&gt;&lt;br/&gt;&lt;table&gt;
 	&lt;tr&gt;
-		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;hellofitnesse.IsItFridayYet&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;hellofitnesse.LastOrderTime&lt;/span&gt;&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr&gt;
 		&lt;td&gt;day of week&lt;/td&gt;
@@ -36,15 +36,15 @@
     <relativePageName>IsItFridayYet</relativePageName>
             <instructions>
             <instructionResult>
-        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='hellofitnesse.IsItFridayYet', args=[]}</instruction>
-        <slimResult>pass(hellofitnesse.IsItFridayYet)</slimResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='hellofitnesse.LastOrderTime', args=[]}</instruction>
+        <slimResult>pass(hellofitnesse.LastOrderTime)</slimResult>
                 <expectation>
                     <status>pass</status>
                     <instructionId>decisionTable_0_0</instructionId>
                     <col>0</col>
                               <row>0</row>
                     <type>ConstructionExpectation</type>
-                                        <evaluationMessage>hellofitnesse.IsItFridayYet</evaluationMessage>
+                                        <evaluationMessage>hellofitnesse.LastOrderTime</evaluationMessage>
                   </expectation>
               </instructionResult>
             <instructionResult>

@@ -4,13 +4,13 @@
   <rootPath>Example.IsItFridayYet</rootPath>
     <result>
     <counts>
-      <right>0</right>
-      <wrong>2</wrong>
+      <right>2</right>
+      <wrong>0</wrong>
       <ignores>0</ignores>
       <exceptions>0</exceptions>
     </counts>
-    <date>2018-08-24T06:10:58+02:00</date>
-    <runTimeInMillis>247</runTimeInMillis>
+    <date>2018-08-24T13:43:50+02:00</date>
+    <runTimeInMillis>287</runTimeInMillis>
     <content>&lt;br/&gt;&lt;div class="contents"&gt;
 	&lt;b&gt;Contents:&lt;/b&gt;
 	&lt;ul class="toc1"/&gt;&lt;ul class="toc1"/&gt;
@@ -25,11 +25,11 @@
 	&lt;/tr&gt;
 	&lt;tr&gt;
 		&lt;td&gt;Sunday&lt;/td&gt;
-		&lt;td&gt;[&lt;span class="diff"&gt;Wha?&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;Nope&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Nope&lt;/span&gt;&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr&gt;
 		&lt;td&gt;Friday&lt;/td&gt;
-		&lt;td&gt;[&lt;span class="diff"&gt;Wha?&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;YEAH!&lt;/span&gt;&lt;span class="fail"&gt;]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;YEAH!&lt;/span&gt;&lt;/td&gt;
 	&lt;/tr&gt;
 &lt;/table&gt;
 </content>
@@ -59,16 +59,15 @@
               </instructionResult>
             <instructionResult>
         <instruction>{id='decisionTable_0_6', instruction='call', instanceName='decisionTable_0', methodName='isFriday', args=[]}</instruction>
-        <slimResult>fail(a=Wha?;e=Nope)</slimResult>
+        <slimResult>pass(Nope)</slimResult>
                 <expectation>
-                    <status>fail</status>
+                    <status>pass</status>
                     <instructionId>decisionTable_0_6</instructionId>
                     <col>1</col>
                               <row>2</row>
                     <type>ReturnedValueExpectation</type>
-                    <actual>Wha?</actual>
-                              <expected>Nope</expected>
-                            </expectation>
+                                        <evaluationMessage>Nope</evaluationMessage>
+                  </expectation>
               </instructionResult>
             <instructionResult>
         <instruction>{id='decisionTable_0_8', instruction='call', instanceName='decisionTable_0', methodName='setDayOfWeek', args=[Friday]}</instruction>
@@ -82,16 +81,15 @@
               </instructionResult>
             <instructionResult>
         <instruction>{id='decisionTable_0_10', instruction='call', instanceName='decisionTable_0', methodName='isFriday', args=[]}</instruction>
-        <slimResult>fail(a=Wha?;e=YEAH!)</slimResult>
+        <slimResult>pass(YEAH!)</slimResult>
                 <expectation>
-                    <status>fail</status>
+                    <status>pass</status>
                     <instructionId>decisionTable_0_10</instructionId>
                     <col>1</col>
                               <row>3</row>
                     <type>ReturnedValueExpectation</type>
-                    <actual>Wha?</actual>
-                              <expected>YEAH!</expected>
-                            </expectation>
+                                        <evaluationMessage>YEAH!</evaluationMessage>
+                  </expectation>
               </instructionResult>
           </instructions>
       </result>
@@ -103,11 +101,11 @@
     <stdErr></stdErr>
   </executionLog>
   <finalCounts>
-    <right>0</right>
-    <wrong>1</wrong>
+    <right>1</right>
+    <wrong>0</wrong>
     <ignores>0</ignores>
     <exceptions>0</exceptions>
   </finalCounts>
-  <totalRunTimeInMillis>839</totalRunTimeInMillis>
+  <totalRunTimeInMillis>1578</totalRunTimeInMillis>
 </testResults>
 
