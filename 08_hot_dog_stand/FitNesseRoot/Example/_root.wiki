@@ -1,0 +1,8 @@
+---
+Suite
+Test: no
+---
+!path   out/test/classes
+!define TEST_SYSTEM {slim} 
+
+[[Is it friday yet?][.Example.IsItFridayYet]]

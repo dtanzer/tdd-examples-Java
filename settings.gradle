@@ -1,2 +1,2 @@
 include '01_intro_tdd', '02_tdd_hangman', '03_more_practice', '04_outside_in', '05_mock_objects',
-		'06_refactoring_game', '07_english_numbers'
+		'06_refactoring_game', '07_english_numbers', '08_hot_dog_stand'
