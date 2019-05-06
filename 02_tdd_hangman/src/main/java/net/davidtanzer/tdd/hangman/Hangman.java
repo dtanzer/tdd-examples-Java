@@ -1,10 +1,7 @@
 package net.davidtanzer.tdd.hangman;
 
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 public class Hangman {
-	
+
 	private final SecretWordContainer s;
 	private String ratezustand;
 
@@ -20,14 +17,15 @@ public class Hangman {
 
 	public void rateBuchstabe(char buchstabe) {
 
-		int index = s.getWort().indexOf(buchstabe);
+		int index = s.indexOf(buchstabe, 0);
 		StringBuilder stringBuilder = new StringBuilder(ratezustand);
 
 		while(index >= 0){
 			stringBuilder.setCharAt(index, buchstabe);
-			index = s.getWort().indexOf(buchstabe,index+1);
+			index = s.indexOf(buchstabe, index+1);
 		}
 
 		ratezustand = stringBuilder.toString();
 	}
+
 }

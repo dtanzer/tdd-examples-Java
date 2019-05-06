@@ -11,4 +11,8 @@ public class SecretWordContainer {
 	public String getWort() {
 		return wort;
 	}
+
+	int indexOf(char buchstabe, int i) {
+		return getWort().indexOf(buchstabe, i);
+	}
 }
