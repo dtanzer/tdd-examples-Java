@@ -1,5 +1,9 @@
 package net.davidtanzer.tdd.hangman;
 
+import com.sun.xml.internal.fastinfoset.util.CharArray;
+
+import java.util.Arrays;
+
 public class Hangman {
 
 	private final SecretWordContainer s;
@@ -7,7 +11,9 @@ public class Hangman {
 
 	public Hangman(String wort) {
 		s = new SecretWordContainer(wort);
-		ratezustand = wort.replaceAll(".", "_");
+		char[] array = new char[s.length()];
+		Arrays.fill(array, '_');
+		ratezustand = new String(array);
 	}
 
 	public String getRatezustand() {

@@ -8,11 +8,11 @@ public class SecretWordContainer {
 		this.wort = wort;
 	}
 
-	public String getWort() {
-		return wort;
+	public int length(){
+		return wort.length();
 	}
 
 	int indexOf(char buchstabe, int i) {
-		return getWort().indexOf(buchstabe, i);
+		return wort.indexOf(buchstabe, i);
 	}
 }
