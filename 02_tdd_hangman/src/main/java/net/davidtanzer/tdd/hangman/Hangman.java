@@ -7,10 +7,11 @@ public class Hangman {
 
 
 	private final String wort;
+	private final SecretWordContainer s;
 	private String ratezustand;
 
 	public Hangman(String wort) {
-
+		s = new SecretWordContainer(wort);
 		this.wort = wort;
 		ratezustand = wort.replaceAll(".", "_");
 	}
