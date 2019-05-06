@@ -9,8 +9,8 @@ public class Hangman {
 	private final SecretWordContainer s;
 	private String ratezustand;
 
-	public Hangman(String wort) {
-		s = new SecretWordContainer(wort);
+	public Hangman(SecretWordContainer container) {
+		s = container;
 		char[] array = new char[s.length()];
 		Arrays.fill(array, '_');
 		ratezustand = new String(array);

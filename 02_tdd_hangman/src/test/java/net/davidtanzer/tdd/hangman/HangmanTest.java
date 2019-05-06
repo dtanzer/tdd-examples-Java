@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
 class HangmanTest {
-	private Hangman hangman = new Hangman("test");
+	private Hangman hangman = new Hangman(new SecretWordContainer("test"));
 
 	@Test
 	public void platzHalterStimmtMitWortlaenge() {
@@ -20,7 +20,7 @@ class HangmanTest {
 
 	@Test
 	public void platzHalterStimmtMitWortlaenge_keineAhnung() {
-		Hangman hangman = new Hangman("keineAhnung");
+		Hangman hangman = new Hangman(new SecretWordContainer("keineAhnung"));
 		assertThat(hangman.getRatezustand().length()).isEqualTo(11);
 	}
 
