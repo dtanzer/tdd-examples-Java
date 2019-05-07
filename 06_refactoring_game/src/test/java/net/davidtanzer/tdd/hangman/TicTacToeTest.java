@@ -1,4 +1,4 @@
-package net.davidtanzer.tdd.tictactoe;
+package net.davidtanzer.tdd.hangman;
 
 import org.junit.jupiter.api.Test;
 
